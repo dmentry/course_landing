@@ -1,0 +1,52 @@
+.intro {
+  background-color: black;
+  background-image: url("../images/title-fly.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+/*   background-position: 0 0%, center top; */
+  background-position: 50% 0%;
+
+  color: #fff;
+  /* padding: 60px; */
+  padding-top: 56px;
+  padding-bottom: 612px;
+  margin-bottom: 50px;
+  /* margin-top: 56px; */
+}
+
+.intro-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.intro .text-lead {
+  color: #d3d3d3;
+  max-width: 70%;
+  margin: 0 15%;
+}
+
+.advantages-list {
+  list-style-image: url("../pics/tick.png");
+}
+
+.advantages-list-item {
+  padding-left: 10px;
+}
+
+.photo-example {
+  max-height: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  opacity: 0.75;
+}
+
+.photos-examples a {
+  outline: none;
+  text-decoration: none;
+}
+
+.photo-example:hover {
+  opacity: 1;
+}
