@@ -1,7 +1,7 @@
 .intro {
   background-color: black;
   background-image: url("../images/title-fly.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
 /*   background-position: 0 0%, center top; */
@@ -10,9 +10,13 @@
   color: #fff;
   /* padding: 60px; */
   padding-top: 56px;
-  padding-bottom: 612px;
-  margin-bottom: 50px;
+  padding-bottom: 590px;
+  /* margin-bottom: 50px; */
   /* margin-top: 56px; */
+}
+
+.title-intro {
+  font-size: 48px;
 }
 
 .intro-logo {
@@ -35,18 +39,18 @@
   padding-left: 10px;
 }
 
-.photo-example {
+.image-hover {
   max-height: 200px;
   padding-left: 10px;
   padding-right: 10px;
   opacity: 0.75;
 }
 
-.photos-examples a {
+.links-decoration a {
   outline: none;
   text-decoration: none;
 }
 
-.photo-example:hover {
+.image-hover:hover {
   opacity: 1;
 }

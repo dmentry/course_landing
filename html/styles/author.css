@@ -1,6 +1,6 @@
 .author {
-  padding: 40px 0;
-  background: #eee;
+  padding: 35px 0;
+  background: white;
 }
 
 .about-author {
@@ -35,8 +35,8 @@
 }
 
 .member-social {
-  background: #fff;
-  border-radius: 3px;
+/*   background: #fff;
+  border-radius: 3px; */
   display: inline-block;
   padding: 8px 20px 5px;
 }
@@ -55,4 +55,10 @@
   padding-left: 10px;
 }
 
+.member-social img {
+  opacity: 0.6;
+}
 
+.member-social img:hover {
+  opacity: 1;
+}
