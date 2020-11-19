@@ -10,16 +10,9 @@
   padding-top: 55px;
 }
 
-/* .header-nav {
-  float: right;
-  vertical-align: baseline;
-  line-height: 36px;
-} */
-
 .advantages-list {
-
   list-style-image: url("../pics/tick.png");
-    float: right;
+  float: right;
   vertical-align: baseline;
   line-height: 36px;
 }
@@ -39,7 +32,20 @@
   opacity: 1;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+  .advantages-list {
+    float: none;
+    margin-left: 50px;
+    padding:  0;
+    line-height: 20px;
+  }
+
+  .advantages-list-item {
+    padding: 0 0 5px 0;
+  }
+}
+
+@media (max-width: 700px) {
   .title-course {
     font-size: 28px;
     font-weight: bold;
@@ -50,24 +56,15 @@
   .advantages-list {
       float: none;
       margin-left: 30px;
-      padding:  0;
-    line-height: 20px;
-}
+  }
 
-.advantages-list-item {
-  padding: 0 0 5px 0;
-}
+  .image-hover {
+    max-height: 200px;
+    padding: 0;
+    opacity: 1;
+  }
 
-.image-hover {
-  max-height: 200px;
-/*   padding-left: 10px;
-  padding-right: 10px; */
-  padding: 0;
-  opacity: 1;
-}
-
-.links-decoration {
-  text-align: center;
-}
-
+  .links-decoration {
+    text-align: center;
+  }
 }

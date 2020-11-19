@@ -3,10 +3,6 @@
   padding-bottom: 60px;
 }
 
-/* .prices {
-  padding: 25px 0 25px 0;
-  } */
-
 .fare, .fare-head, .fare-footer {
   border-radius: 3px;
 }
@@ -39,11 +35,6 @@
   margin: 20px 0;
 }
 
-/* .fare_featured {
-  background: #59a3fc;
-  border-color: #307edc;
-} */
-
 .fare_featured {
   background: #8aba56;
   border-color: #393;
@@ -57,12 +48,6 @@
 .fare_featured .text-lead {
   color: white;
 }
-
-/* .fare_featured .fare-footer,
-.fare_featured .fare-head {
-  background: #3b89ec;
-  border-color: #307edc;
-} */
 
 .fare_featured .fare-footer,
 .fare_featured .fare-head {
@@ -81,13 +66,12 @@
   color: #666;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   .fares {
-    padding: 0px;
+    padding: 0;
   }
 
   .column-1-2 {
     padding-bottom: 10px;
   }
-
 }

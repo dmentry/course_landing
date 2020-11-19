@@ -38,7 +38,7 @@
   font-weight: bold;
 }
 
-/* @media (max-width: 640px) {
+@media (max-width: 640px) {
   .header {
     position: inherit;
     width: auto;
@@ -46,29 +46,7 @@
     opacity: 1;
   }
 
-  .header-nav,
-  .header-logo {
-    float: none;
-  }
-
-}
-
-@media (max-width: 360px) {
-  .header-nav-item {
-    display: block;
-  }
-} */
-
-@media (max-width: 600px) {
-  .header {
-    position: inherit;
-    width: auto;
-    top: auto;
-    opacity: 1;
-  }
-
-  .header-nav,
-  .header-logo {
+  .header-nav, .header-logo {
     float: none;
   }
 

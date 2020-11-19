@@ -18,15 +18,14 @@
   margin-bottom: 18px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   .title-large {
     font-size: 36px;
     margin-bottom: 0;
-}
+  }
 
-.action-image {
-  width: 270px;
-  opacity: 0.9;
-}
-
+  .action-image {
+    width: 270px;
+    opacity: 0.9;
+  }
 }
