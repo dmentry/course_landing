@@ -1,10 +1,8 @@
 .intro {
-  background-color: black;
-  background-image: url("../images/title-fly.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
-  background-position: top left;
+  background-position: left center;
   color: #fff;
   padding-top: 56px;
   padding-bottom: 589px;
