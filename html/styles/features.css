@@ -6,3 +6,15 @@
 .features-item {
   padding: 10px;
 }
+
+/* .features-item .text-lead {
+  color: #d3d3d3;
+  max-width: 70%;
+  margin: 0 15%;
+} */
+
+@media (max-width: 600px) {
+  .features {
+    padding: 10px;
+  }
+}

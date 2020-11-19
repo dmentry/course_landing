@@ -7,3 +7,26 @@
   width: 300px;
   opacity: 0.9;
 }
+
+.buffer-both {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title-large {
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 600px) {
+  .title-large {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.action-image {
+  width: 270px;
+  opacity: 0.9;
+}
+
+}

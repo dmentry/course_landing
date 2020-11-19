@@ -1,10 +1,11 @@
 .fares {
+  padding-top: 25px;
   padding-bottom: 60px;
 }
 
-.prices .title-small {
-  color: gray;
-}
+/* .prices {
+  padding: 25px 0 25px 0;
+  } */
 
 .fare, .fare-head, .fare-footer {
   border-radius: 3px;
@@ -67,4 +68,26 @@
 .fare_featured .fare-head {
   background: #393;
   border-color: #8aba56;
+}
+
+.buffer-both-large {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.text-medium {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .fares {
+    padding: 0px;
+  }
+
+  .column-1-2 {
+    padding-bottom: 10px;
+  }
+
 }
