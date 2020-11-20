@@ -20,7 +20,7 @@
     <script type="text/javascript" charset="utf-8" src="js/parallax.js-1.5.0/parallax.min.js"></script>
 
     <script type="text/javascript" charset="utf-8" src="js/author.js"></script>
-
+    <script type="text/javascript" charset="utf-8" src="js/header.js"></script>
   </head>
   <body>
 
@@ -52,7 +52,7 @@
     </div>
 
     <div class="intro text-center title-intro" id="intro" data-parallax="scroll" data-image-src="images/title-fly.jpg">
-      <h1 class="title-medium buffer-top-large">Курс по макрофотографии: &laquo;От новичка до профи&raquo;</h1>
+      <h1 class="intro-title-medium buffer-top-large">Курс по макрофотографии: &laquo;От новичка до профи&raquo;</h1>
     </div>
 
     <div class="about-course" id="about-course">
@@ -196,10 +196,27 @@
           </div>
         </div>
         <div class="column-1-2">
-          <div class="action-details">
+          <div class="action-details text-center">
             <p class="title-large">Заказать курс</p>
-            <div class="buffer-both">
-              <a class="button button-green" href="#">Заказать</a>
+            <div class="form">
+              <form action="/orders" method="post">
+                <p class="buffer-both">
+                  <input class="form-input-text" type="text" name="order[name]" placeholder="Ваше имя">
+                </p>
+                <p class="buffer-both">
+                  <input class="form-input-text" type="text" name="order[email]" placeholder="Email">
+                </p>
+                <p class="buffer-both">
+                  <input class="form-input-text" type="text" name="order[phone]" placeholder="Телефон">
+                </p>
+                <p class="buffer-both">
+                  <label for="news">Подписаться на акции и спецпредложения</label>
+                  <input type="checkbox" id="news" name="order[subscribe]" placeholder="Ваше имя">
+                </p>
+                <div class="buffer-both">
+                  <input type="submit" class="button button-green" value="Заказать">
+                </div>
+              </form>
             </div>
           </div>
         </div>

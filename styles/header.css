@@ -39,7 +39,9 @@
 }
 
 .header-nav-link:hover {
-  color: #06f;
+  color: black;
+  background-color: #fff;
+  border-radius: 2px;
   transition: all ease .3s;
 }
 
