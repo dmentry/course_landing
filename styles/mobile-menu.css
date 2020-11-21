@@ -1,0 +1,95 @@
+.mobile-menu {
+    display: none;
+  }
+
+.hidden-menu-check {
+  display: none;
+}
+
+.btn-menu {
+  color: black;
+  border:1px solid black;
+  padding: 5px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+  z-index: 3;
+  width: 25px;
+  border-radius: 2px;
+}
+
+.btn-menu span {
+  display: block;
+  height: 5px;
+  background-color: #222;
+  margin: 5px 0 0;
+  position: relative;
+}
+
+.btn-menu span.first {
+  margin-top: 0;
+}
+
+.hidden-menu {
+  display: block;
+  position: fixed;
+  list-style:none;
+  padding: 50px 10px 10px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 180px;
+  background-color: black;
+  height: 100%;
+  top: 0;
+  left: -200px;
+  z-index: 2;
+  opacity: 0.85;
+  height: auto;
+}
+
+.hidden-menu li {
+  padding:10px 0;
+  text-align: left;
+}
+
+.hidden-menu li a {
+  font-size:22px;
+  font-weight: bold;
+  color:white;
+  padding:6px 0px;
+}
+
+.hidden-menu-check:checked ~ .btn-menu {
+  left: 140px;
+  color: white;
+  border:1px solid white;
+}
+
+.hidden-menu-check:checked ~ .btn-menu span {
+background-color: white;
+}
+
+.hidden-menu-check:checked ~ .hidden-menu {
+  left: 0;
+}
+
+.hidden-menu-check:checked ~ .btn-menu span.first {
+  -webkit-transform: rotate(45deg);
+  top: 10px;
+}
+
+.hidden-menu-check:checked ~ .btn-menu span.second {
+  opacity: 0;
+
+}
+.hidden-menu-check:checked ~ .btn-menu span.third {
+  -webkit-transform: rotate(-45deg);
+  top: -10px;
+}
+
+@media (max-width: 640px) {
+  .mobile-menu {
+    display: block;
+  }
+}

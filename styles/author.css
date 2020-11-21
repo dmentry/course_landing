@@ -13,6 +13,14 @@
   width: 160px;
 }
 
+.author-photo {
+  float: left;
+  margin-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 90px;
+}
+
 .member-photo {
   border: 5px solid #eee;
   border-radius: 100%;
@@ -24,13 +32,6 @@
   padding: 8px 20px 5px;
 }
 
-.author-photo {
-  float: left;
-  margin-top: 20px;
-  padding-right: 10px;
-  margin-right: 90px;
-}
-
 .author-moto {
   cursor: pointer;
 }
@@ -40,7 +41,7 @@
 }
 
 .about-author-list-item {
-  font-size: 20px;
+  font-size: 24px;
   margin-top: 16px;
   padding-left: 10px;
 }
@@ -75,7 +76,6 @@
   }
 
   .about-author-list-item {
-    font-size: 20px;
     font-weight: none;
     margin-top: 10px;
     margin-left: 20px;

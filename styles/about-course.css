@@ -18,6 +18,7 @@
 }
 
 .advantages-list-item {
+  font-size: 24px;
   padding-left: 10px;
 }
 
@@ -42,6 +43,7 @@
 
   .advantages-list-item {
     padding: 0 0 5px 5px;
+    line-height: 36px;
   }
 }
 
@@ -57,6 +59,11 @@
       float: none;
       margin-left: 30px;
       list-style-type: disc;
+  }
+
+  .advantages-list-item {
+    font-size: 24px;
+    padding-top: 8px;
   }
 
   .image-hover {
