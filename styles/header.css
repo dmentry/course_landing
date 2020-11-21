@@ -46,21 +46,6 @@
 }
 
 @media (max-width: 640px) {
-/*   .header {
-    position: inherit;
-    width: auto;
-    top: auto;
-    opacity: 0.4;
-  }
-
-  .header-nav, .header-logo {
-    float: none;
-  }
-
-  .header-nav-item {
-    display: block;
-  } */
-
   .header {
     display: none;
   }
