@@ -39,7 +39,7 @@ input.button {
   padding-left: 15px;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 750px) {
   .title-large {
     font-size: 36px;
     margin-bottom: 0;

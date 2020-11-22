@@ -1,2 +1,5 @@
-var image = document.getElementsByClassName('thumbnail');
-new simpleParallax(image);
+document.addEventListener("DOMContentLoaded", () => {
+  var image = document.getElementsByClassName('thumbnail');
+  new simpleParallax(image);
+  });
+
