@@ -1,0 +1,14 @@
+.title-large {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-lead {
+    margin-top: 10px;
+  margin-bottom: 10px;
+}
