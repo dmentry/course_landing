@@ -5,6 +5,7 @@
     <thead>
       <tr>
         <th>ID</th>
+        <th>Тип курса</th>
         <th>Имя</th>
         <th>Email</th>
         <th>Телефон</th>
@@ -17,6 +18,7 @@
       <% @orders.each do |order| %>
         <tr>
           <td><%= order.id %></td>
+          <td><%= order.course_type %></td>
           <td><%= order.name %></td>
           <td><%= order.email %></td>
           <td><%= order.phone %></td>

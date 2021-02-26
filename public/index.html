@@ -179,7 +179,7 @@
               </div>
               <div class="fare-footer">
                 <div class="fare-order">
-                  <a class="button button-gray" href="#">Заказать</a>
+                  <!-- <a class="button button-gray" href="#">Заказать</a> -->
                 </div>
               </div>
             </div>
@@ -201,7 +201,7 @@
               </div>
               <div class="fare-footer">
                 <div class="fare-order">
-                  <a class="button button-green" href="#">Заказать</a>
+                  <!-- <a class="button button-green" href="#">Заказать</a> -->
                 </div>
               </div>
             </div>
@@ -231,6 +231,13 @@
                 <p class="buffer-both">
                   <input class="form-input-text" type="text" name="order[phone]" placeholder="Телефон">
                 </p>
+
+                <p class="buffer-both">
+                  <label for="course_type">Выберите вид курса</label>
+                  <input type="radio" checked="checked" id="course_type_standard" name="order[course_type]" value="standard"> Стандартный
+                  <input type="radio" id="course_type_premium" name="order[course_type]" value="premium"> Премиум
+                </p>
+
                 <p class="buffer-both">
                   <label for="news">Подписаться на акции и спецпредложения</label>
                   <input type="checkbox" id="news" name="order[subscribe]" placeholder="Ваше имя">
