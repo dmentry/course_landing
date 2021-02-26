@@ -4,9 +4,11 @@ Landing page which was created for training and educational purposes (frontend m
 # Try application
 https://myphotolanding.herokuapp.com
 
-Check orders
+### Check orders
 https://myphotolanding.herokuapp.com/orders
+
 login: air
+
 psw: 12345
 
 # System
