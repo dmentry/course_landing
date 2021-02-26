@@ -1,28 +1,23 @@
-== README
+# Landing page
+Landing page which was created for training and educational purposes (frontend mainly). Backend part could collect order information and has simple admin page for orders to see.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Try application
+https://phlanding.herokuapp.com
 
-Things you may want to cover:
+# System
+Ruby 2.5.7
 
-* Ruby version
+Rails 4.2.10
 
-* System dependencies
+# Installation
+git clone git@github.com:dmentry/course_landing.git
 
-* Configuration
+## Before run
+bundle && bundle exec rake db:migrate
 
-* Database creation
+### Run locally server
+bundle exec rails s
 
-* Database initialization
+### Open in browser
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+http://127.0.0.1:3000
