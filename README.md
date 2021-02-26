@@ -1,5 +1,5 @@
 # Landing page
-Landing page which was created for training and educational purposes (frontend mainly). Backend could collect order information and has simple admin page for orders to see.
+Landing page which was created for training and educational purposes (frontend mainly). Backend could collect order information and has simple admin page to check orders.
 
 # Try application
 https://myphotolanding.herokuapp.com
