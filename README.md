@@ -1,5 +1,5 @@
 # Landing page
-Landing page which was created for training and educational purposes. Application gives you opportunity to create events, look over them, subscribe to events of other users, upload photos to events. Also there is possibility to put the mark on the map (e.g. rendezvous point). There is mail sending service to users in order of new photos, comments adding to event on which user is subscribed. There is possibility to create private event which could be accessed only by PIN. User could log in using standard registartion process or via GitHub or VK profile.
+Landing page which was created for training and educational purposes (frontend mainly). Backend part could collect order information and has simple admin page for orders to see.
 
 # Try application
 https://phlanding.herokuapp.com
