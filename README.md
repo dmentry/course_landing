@@ -1,8 +1,13 @@
 # Landing page
-Landing page which was created for training and educational purposes (frontend mainly). Backend part could collect order information and has simple admin page for orders to see.
+Landing page which was created for training and educational purposes (frontend mainly). Backend could collect order information and has simple admin page for orders to see.
 
 # Try application
-https://phlanding.herokuapp.com
+https://myphotolanding.herokuapp.com
+
+Check orders
+https://myphotolanding.herokuapp.com/orders
+login: air
+psw: 12345
 
 # System
 Ruby 2.5.7
