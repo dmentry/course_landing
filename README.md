@@ -7,29 +7,41 @@ https://myphotolanding.herokuapp.com
 ### Check orders (Admin path)
 https://myphotolanding.herokuapp.com/orders
 
-login: ```air```
+login: `air`
 
-psw: ```12345```
+psw: `12345`
 
 ## Main requirements
-Ruby 2.5.7
+* Ruby 2.5.7
 
-Rails 4.2.10
+* Rails 4.2.10
 
 ## Clone
-```git clone git@github.com:dmentry/course_landing.git```
+
+```
+git clone git@github.com:dmentry/course_landing.git
+```
 
 ## Install and migrate db
-```bundle install```
 
-```bundle exec rake db:migrate```
+```
+bundle install
+```
 
-```yarn```
+```
+bundle exec rake db:migrate
+```
+
+```
+yarn
+```
 
 ## Start server
 To start rails server:
 
-```bundle exec rails s```
+```
+bundle exec rails s
+```
 
 ## Open in browser
 http://127.0.0.1:3000
